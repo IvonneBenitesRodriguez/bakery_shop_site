@@ -1,3 +1,4 @@
+/* custom header */
 .mega-menu-dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -38,7 +39,8 @@
   color: #000;
 }
 
-/* CustomCarousel*/
+/* custom carousel*/
+
 .custom-carousel {
   max-height: 400px;
   overflow: hidden;
@@ -53,4 +55,18 @@
   object-position: center;
   height: 100%;
   width: 100%;
+}
+
+/* custom search */
+
+.search-input {
+  padding-left: 2.5rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
 }
