@@ -11,7 +11,7 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-import { FaShoppingCart, FaPhoneAlt, FaBars } from "react-icons/fa";
+import { FaShoppingCart, FaPhoneAlt, FaBars, FaSearch } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 const Header = () => {
@@ -25,18 +25,19 @@ const Header = () => {
             <img
               src={logo}
               alt="Edible"
-              height="80"
+              height="130"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
           {/* search form */}
-          <Form className="d-none d-lg-flex flex-grow-1 mx-4">
-            <FormControl
+          <Form className="d-none d-lg-flex flex-grow-1 mx-4 position-relative">
+            <input
               type="search"
               placeholder="Looking for something special?"
-              className="me-2 flex-grow-1"
+              className="form-control search-input"
               aria-label="Search"
             />
+            <FaSearch className="search-icon" />
           </Form>
           {/* account and cart links */}
           <Nav className="d-none d-lg-flex ms-auto">
@@ -133,7 +134,7 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link
               href="#sweet-deals"
-              className="shop-link text-dark fw-bold"
+              className="shop-link text-danger fw-bold"
             >
               Sweet Deals
             </Nav.Link>
