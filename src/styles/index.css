@@ -70,12 +70,21 @@
   transform: translateY(-50%);
   color: #6c757d;
 }
-/*BannerStyle*/
+
+/*banner style*/
 .bannerStyle {
   width: 40%;
   height: auto;
 }
-.banners{
+.banners {
   display: flex;
   justify-content: center;
+}
+
+/*popular category*/
+
+.category-img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
 }
