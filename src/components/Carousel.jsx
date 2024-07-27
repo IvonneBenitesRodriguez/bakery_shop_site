@@ -1,10 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import carouelImg1 from "../assets/carousel_image1.jpg";
-import carouelImg2 from "../assets/carousel_image2.jpg";
-import carouelImg3 from "../assets/carousel_image3.jpg";
-import carouelImg4 from "../assets/carousel_image4.jpg";
-import carouelImg5 from "../assets/carousel_image5.jpg";
+import carouelImg2 from "../assets/carousel_image6.jpg";
+import carouelImg3 from "../assets/carousel_image7.jpg";
+import carouelImg4 from "../assets/carousel_image3.jpg";
+import carouelImg5 from "../assets/carousel_image9.avif";
 
 const CustomCarousel = () => {
   return (
