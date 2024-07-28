@@ -2,7 +2,7 @@ import React from "react";
 import pic1 from "../assets/banpic1.jpg";
 import pic2 from "../assets/banpic2.jpg";
 
-const Banner_One = () => {
+const BannerOne = () => {
   return (
     <div className="container my-5">
       <div className="row g-3">
@@ -12,7 +12,7 @@ const Banner_One = () => {
             <br />
             for summer
           </p>
-          <img src={pic1} alt="picture1_banner" className="w-75" />
+          <img src={pic1} alt="picture1_banner" className="w-75 rounded" />
           <button className="btn btn-danger position-absolute bottom-0 start-1 m-3">
             Shop Now
           </button>
@@ -23,7 +23,7 @@ const Banner_One = () => {
             <br />
             delivered
           </p>
-          <img src={pic2} alt="picture2_banner" className="w-75" />
+          <img src={pic2} alt="picture2_banner" className="w-75 rounded" />
           <button className="btn btn-danger position-absolute bottom-0 start-1 m-3">
             Shop Now
           </button>
@@ -33,4 +33,4 @@ const Banner_One = () => {
   );
 };
 
-export default Banner_One;
+export default BannerOne;

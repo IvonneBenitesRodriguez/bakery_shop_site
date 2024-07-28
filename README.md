@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="../bakery_shop_site/src/assets/logo.png" alt="Project Logo" width="200"/>
+  <img src="./src/assets/logo.png" alt="Project Logo" width="200" style="border-radius: 50%;" />
 </p>
-
 
 #### 📗 Table of Contents
 
@@ -20,7 +19,7 @@
 
 ### ☕️ Bakery_Shop_Site <a name="about-project"></a>
 
-*Bakery Shop Site* repository is built using programming language named JavaScript but specifically in this case We used a framework named **React**. 
+_Bakery Shop Site_ repository is built using programming language named JavaScript but specifically in this case We used a framework named **React**.
 
 This website is **an ecommerce** for offering chocolates and cakes as gifts to users in any special occassion.
 
@@ -28,7 +27,8 @@ We used also **for the payment the stripe platform**.
 <br/>
 
 [Kanban Board Link](https://github.com/users/IvonneBenitesRodriguez/projects/22)<p align="center">
-  <img src="assets/logo.png" alt="Project Logo" width="200"/>
+<img src="assets/logo.png" alt="Project Logo" width="200"/>
+
 </p>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -55,6 +55,7 @@ We used also **for the payment the stripe platform**.
     </details>
 
 ### 📕 Key Features <a name="key-features"></a>
+
 - **[separation of concerns principle]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,11 +68,10 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-
 ```sh
   cd my-folder
   git clone git@github.com/IvonneBenitesRodriguez/bakery_shop_site.git
-  ```
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,13 +82,13 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/IvonneBenitesRodriguez)
 - Twitter: [@twitterhandle](https://twitter.com/IvonneBenitesR)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
-<br/>
+  <br/>
 
- **Authors** Chandan Gupta <br/>
+  **Authors** Chandan Gupta <br/>
+
 - GitHub: [@githubhandle](https://github.com/chandan-devs-tech)
 - Twitter: [@twitterhandle](https://twitter.com/chandanguptadev)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chandangupta-devs/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,4 +120,3 @@ If you like this project, give it a start ⭐️ and a nice comment.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
