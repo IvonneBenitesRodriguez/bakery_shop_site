@@ -142,7 +142,7 @@ const SameDayCarouselData = () => {
                       alt={item.alt}
                       fluid
                       rounded-0
-                      className="mb-2 item-image border border-secondary-subtle px-3 py-3"
+                      className="mb-2 item-image border border-secondary-subtle"
                     />
                     <p className="mb-0 fw-bold titleStyle">{item.title}</p>
                     <p className="mb-0 fw-bold fs-6 text-sameday">
