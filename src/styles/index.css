@@ -100,30 +100,78 @@
 border: 1px solid red;
 background-color: #ffebeb;
 }
+
 /*SameDay carousel styles*/
-.item-image{
+
+.carousel-control-icon {
+  font-size: 2rem;
+  color: #e3e3e3;
+}
+
+.product-item {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+  margin-bottom: 0.5rem;
 }
-.titleStyle{
-  font-size: 11px;
-  color: #ff0000;
+
+.product-name {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color:black;
 }
+
+.product-price {
+  font-weight: bold;
+  color: black;
+}
+.product-description{
+  font-weight: bold;
+  color: #dc3545;
+  margin-bottom: 0px;
+}
+.product-size{
+  font-weight: bold;
+  color: #393e46;
+  margin-bottom: 0px;
+}
+
+.selling-fast-badge,
+.delivery-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #dc3545;
+  color: white;
+  padding: 2px 5px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+
+.delivery-badge {
+  background-color: #28a745;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
-  bottom: 160px;
 }
 
-.carousel-indicators {
-  bottom: -50px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
 }
 
-.carousel-indicators button {
-  background-color: #000;
+@media (max-width: 768px) {
+  .product-image {
+    height: 150px;
+  }
 }
-.carousel-inner {
-  padding-bottom: 60px;
-}
-.text-sameday:hover{
-  color: #bb5a5a;
-}
+
+
