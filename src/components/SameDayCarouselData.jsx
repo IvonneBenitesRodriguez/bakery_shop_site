@@ -72,7 +72,7 @@ const ItemCarousel = () => {
       image: cake7Image,
       alt: 'Seventh item',
       title: 'Available for 1 Hour Delivery',
-      description: "Macaroons's Fruits",
+      description: 'Macaroons Fruits',
       size: 'One Size',
       price: '$9.99',
       sellingFast: true,
