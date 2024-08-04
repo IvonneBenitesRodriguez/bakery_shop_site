@@ -191,6 +191,11 @@
 .carousel-control-next-icon {
   background-image: none;
 }
+/*Cookies Banner*/
+.textCookies {
+  margin-right: 332px;
+  bottom:81px;
+}
 
 @media (max-width: 768px) {
   .product-image {
