@@ -1,22 +1,20 @@
-import React from "react";
-import Header from "./components/Header.jsx";
-import Carousel from "./components/Carousel.jsx";
-import BannerOne from "./components/BannerOne.jsx";
-import PopularCategories from "./components/PopularCategories.jsx";
-import SameDay from "./components/SameDay.jsx";
-import SameDayCarouselData from "./components/SameDayCarouselData.jsx";
+import React from 'react';
+import Header from './components/Header';
+import Carousel from './components/Carousel';
+import BannerOne from './components/BannerOne';
+import PopularCategories from './components/PopularCategories';
+import SameDayCarouselData from './components/SameDayCarouselData';
+import ProductCarousel from './components/JustBecause';
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Carousel />
-      <BannerOne />
-      <PopularCategories />
-      <SameDay />
-      <SameDayCarouselData />
-    </>
-  );
-};
+const App = () => (
+  <>
+    <Header />
+    <Carousel />
+    <BannerOne />
+    <PopularCategories />
+    <SameDayCarouselData />
+    <ProductCarousel />
+  </>
+);
 
 export default App;
