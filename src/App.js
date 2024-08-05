@@ -5,6 +5,7 @@ import BannerOne from './components/BannerOne';
 import PopularCategories from './components/PopularCategories';
 import SameDayCarouselData from './components/SameDayCarouselData';
 import ProductCarousel from './components/JustBecause';
+import BannerCookies from './components/BannerCookies';
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
     <PopularCategories />
     <SameDayCarouselData />
     <ProductCarousel />
+    <BannerCookies />
   </>
 );
 
