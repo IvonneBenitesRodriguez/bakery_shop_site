@@ -39,6 +39,16 @@
   color: #000;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  .nav-container {
+    padding: 0;
+  }
+}
+
 /* custom carousel */
 
 .custom-carousel {
@@ -192,6 +202,16 @@
   background-image: none;
 }
 
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 1.5rem;
+  }
+
+  .custom-button {
+    width: 140px;
+  }
+}
+
 /* Cookies Banner */
 .textCookies {
   margin-right: 332px;
@@ -201,5 +221,58 @@
 @media (max-width: 768px) {
   .product-image {
     height: 150px;
+  }
+}
+
+/* cookies carousel  */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.header-text {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.dropdown-arrow {
+  font-size: 15px;
+  color: #888;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #f00;
+}
+
+@media (max-width: 768px) {
+  .dropdown-container {
+    display: none;
   }
 }
