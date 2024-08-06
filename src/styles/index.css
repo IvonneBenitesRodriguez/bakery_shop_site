@@ -39,6 +39,16 @@
   color: #000;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  .nav-container {
+    padding: 0;
+  }
+}
+
 /* custom carousel */
 
 .custom-carousel {
