@@ -6,6 +6,7 @@ import PopularCategories from './components/PopularCategories';
 import SameDayCarouselData from './components/SameDayCarouselData';
 import ProductCarousel from './components/JustBecause';
 import BannerCookies from './components/BannerCookies';
+import CookieCarousel from './components/CookieCarousel';
 
 const App = () => (
   <>
@@ -16,6 +17,7 @@ const App = () => (
     <SameDayCarouselData />
     <ProductCarousel />
     <BannerCookies />
+    <CookieCarousel />
   </>
 );
 
