@@ -21,7 +21,7 @@ const Header = () => (
   <header>
     {/* logo */}
     <Navbar bg="white" expand="lg" className="px-3">
-      <Container fluid>
+      <Container fluid className="nav-container">
         <Navbar.Brand href="#home">
           <img
             src={logo}
