@@ -1,20 +1,34 @@
 import React, { useState } from 'react';
-import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Col, Row, Button } from 'react-bootstrap';
 
 const FloatingLabelInput = () => {
-  const [value, setValue] = useState('');
-  const [isFocused, setIsFocused] = useState(false);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [isNameFocused, setIsNameFocused] = useState(false);
+  const [isEmailFocused, setIsEmailFocused] = useState(false);
 
-  const handleChange = (e) => {
-    setValue(e.target.value);
+  const handleNameChange = (e) => {
+    setName(e.target.value);
   };
 
-  const handleFocus = () => {
-    setIsFocused(true);
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
   };
 
-  const handleBlur = () => {
-    setIsFocused(false);
+  const handleNameFocus = () => {
+    setIsNameFocused(true);
+  };
+
+  const handleNameBlur = () => {
+    setIsNameFocused(false);
+  };
+
+  const handleEmailFocus = () => {
+    setIsEmailFocused(true);
+  };
+
+  const handleEmailBlur = () => {
+    setIsEmailFocused(false);
   };
 
   return (
@@ -22,34 +36,43 @@ const FloatingLabelInput = () => {
       <Row className="d-flex justify-content-center">
         <h1 className="d-flex justify-content-center">Unlock your discount</h1>
         <p className="d-flex justify-content-center fs-4">
-          Join our email list for{' '}
-          <span className="text-danger ms-1 me-1 fs-4">instant savings</span>on
-          your next pickup order
+          Join our email list for
+          {' '}
+          <span className="text-danger ms-1 me-1 fs-4">instant savings</span>
+          on your next pickup order
         </p>
         <Col className="col-md-12 d-flex justify-content-center gap-3">
           <div className="floating-label-input">
             <input
               type="text"
-              value={value}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              placeholder={isFocused ? '' : 'Full Name*'}
+              id="full-name"
+              value={name}
+              onChange={handleNameChange}
+              onFocus={handleNameFocus}
+              onBlur={handleNameBlur}
+              placeholder={isNameFocused ? '' : 'Full Name*'}
             />
-            <label className={isFocused || value ? 'active' : ''}>
+            <label
+              htmlFor="full-name"
+              className={isNameFocused || name ? 'active' : ''}
+            >
               Full Name*
             </label>
           </div>
           <div className="floating-label-input">
             <input
               type="email"
-              value={value}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              placeholder={isFocused ? '' : 'Email Address*'}
+              id="email-address"
+              value={email}
+              onChange={handleEmailChange}
+              onFocus={handleEmailFocus}
+              onBlur={handleEmailBlur}
+              placeholder={isEmailFocused ? '' : 'Email Address*'}
             />
-            <label className={isFocused || value ? 'active' : ''}>
+            <label
+              htmlFor="email-address"
+              className={isEmailFocused || email.length ? 'active' : ''}
+            >
               Email Address*
             </label>
           </div>
