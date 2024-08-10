@@ -7,6 +7,7 @@ import SameDayCarouselData from './components/SameDayCarouselData';
 import ProductCarousel from './components/JustBecause';
 import BannerCookies from './components/BannerCookies';
 import CookieCarousel from './components/CookieCarousel';
+import FloatingLabelInput from './components/Discount_Banner';
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
     <ProductCarousel />
     <BannerCookies />
     <CookieCarousel />
+    <FloatingLabelInput />
   </>
 );
 
