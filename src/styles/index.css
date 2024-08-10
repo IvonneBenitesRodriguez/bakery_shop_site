@@ -1,5 +1,4 @@
-custom header
-.mega-menu-dropdown .dropdown-menu {
+header .mega-menu-dropdown .dropdown-menu {
   width: 400px;
   padding: 20px;
 }
@@ -91,10 +90,12 @@ custom header
   display: flex;
   justify-content: center;
 }
-/*BannerOne*/
-.fs-2 .banner_one_text p{
+
+/* BannerOne */
+.fs-2 {
   font-size: 10px;
 }
+
 /* popular category */
 
 .category-img {
@@ -273,12 +274,14 @@ custom header
 .highlight {
   color: #f00;
 }
-/*DiscountBanner*/
+
+/* DiscountBanner */
 
 .floating-label-input {
   position: relative;
   margin-bottom: 20px;
-} 
+}
+
 .floating-label-input input {
   width: 100%;
   padding: 10px;
@@ -296,6 +299,7 @@ custom header
   pointer-events: none;
   color: #999;
 }
+
 .floating-label-input input:focus + label,
 .floating-label-input label.active {
   top: 0;
@@ -307,19 +311,19 @@ custom header
 .floating-label-input input:focus {
   outline: none;
   border-color: #007bff;
-} 
-.button-discount{
-  width: 90px;
-height: auto;
 }
- .discount_border{
-  border: solid rgb(225,6,0) 16px;
+
+.button-discount {
+  width: 90px;
+  height: auto;
+}
+
+.discount_border {
+  border: solid rgb(225, 6, 0) 16px;
   background: url("../assets/bg_discount.jpeg");
   background-repeat: no-repeat;
   background-position: left center;
-  
- 
- }
+}
 
 @media (max-width: 768px) {
   .dropdown-container {
