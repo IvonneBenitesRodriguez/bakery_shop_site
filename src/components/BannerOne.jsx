@@ -6,7 +6,7 @@ const BannerOne = () => (
   <div className="container my-5">
     <div className="row g-3">
       <div className="col-md-6 d-flex justify-content-center position-relative">
-        <p className="position-absolute top-3 text-danger fs-2 lh-1 ms-5 ps-5 pt-3 start-0 m-3">
+        <p className="position-absolute top-3 text-danger fs-2 lh-1 ms-5 ps-5 pt-3 start-0 m-3 banner_one_text">
           top-sellers
           <br />
           for summer
@@ -20,7 +20,7 @@ const BannerOne = () => (
         </button>
       </div>
       <div className="col-md-6 d-flex justify-content-center position-relative">
-        <p className="position-absolute top-3 text-danger fs-2 lh-1 ms-5 ps-5 pt-3 start-0 m-3">
+        <p className="position-absolute top-3 text-danger fs-2 lh-1 ms-5 ps-5 pt-3 start-0 m-3 banner_one_text">
           birthday fun
           <br />
           delivered
