@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import {
+  Container, Row, Col, Carousel,
+} from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
 import cookiesImg1 from '../assets/cookiesImg1.jpg';
@@ -96,9 +98,7 @@ const CookieCarousel = () => {
 
   const slidesDisplayed = (arr, size) => {
     const length = Math.ceil(arr.length / size);
-    return Array.from({ length }, (v, i) =>
-      arr.slice(i * size, i * size + size)
-    );
+    return Array.from({ length }, (v, i) => arr.slice(i * size, i * size + size));
   };
 
   const itemsSlides = slidesDisplayed(items, 4);
@@ -178,9 +178,17 @@ const CookieCarousel = () => {
               are the perfect way to make a lasting impression. And with our
               fast and reliable delivery service, you can surprise your loved
               ones with a sweet Edible® gift no matter where they are. We even
-              have <span className="highlight">same day delivery gifts</span> so
+              have
+              {' '}
+              <span className="highlight">same day delivery gifts</span>
+              {' '}
+              so
               you can send the perfect gift even in a pinch, as well as
-              affordable <span className="highlight">gifts under $50</span> to
+              affordable
+              {' '}
+              <span className="highlight">gifts under $50</span>
+              {' '}
+              to
               suit any budget! So why wait? Make their day a whole lot sweeter
               with an Edible® gift from Edible Arrangements®!
             </p>
@@ -193,8 +201,11 @@ const CookieCarousel = () => {
               covered strawberries with only the most delectable ingredients. We
               start by selecting the most plump and juiciest strawberries, which
               then get hand-dipped in real, gourmet chocolate for a simply
-              sensational treat. Searching for a sweet{' '}
-              <span className="highlight">birthday gift</span> for someone in
+              sensational treat. Searching for a sweet
+              {' '}
+              <span className="highlight">birthday gift</span>
+              {' '}
+              for someone in
               your life? We have birthday-themed white chocolate covered
               strawberries rolled in cake batter and confetti sprinkles for a
               festive surprise! Trying to find the perfect gift for another
@@ -210,16 +221,22 @@ const CookieCarousel = () => {
             <p>
               Looking to send an incredible gift that&apos;s oh-so delicious?
               Our selection of fruit gift baskets are perfect for any occasion!
-              Whether you want to send a{' '}
-              <span className="highlight">Valentine&apos;s Day gift</span>{' '}
-              that&apos;s oh-so sweet, or a delightful and delicious{' '}
-              <span className="highlight">Mother&apos;s Day gift</span> that
+              Whether you want to send a
+              {' '}
+              <span className="highlight">Valentine&apos;s Day gift</span>
+              {' '}
+              that&apos;s oh-so sweet, or a delightful and delicious
+              {' '}
+              <span className="highlight">Mother&apos;s Day gift</span>
+              {' '}
+              that
               will really show your love, Edible Arrangements® has fruit gift
               baskets that can be delivered right to their doorstep. And, each
               of our fruit basket delivery gifts are handcrafted by a Fruit
               Expert®, ensuring that your loved one is receiving only the
               freshest and most delicious gift possible! For fruit gift baskets
-              near you, order online today or contact your{' '}
+              near you, order online today or contact your
+              {' '}
               <span className="highlight">
                 local Edible Arrangements® location
               </span>
