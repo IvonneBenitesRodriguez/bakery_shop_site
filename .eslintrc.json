@@ -23,7 +23,8 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    "jsx-a11y/label-has-associated-control":"off"
   },
   "overrides": [
     {
