@@ -330,3 +330,25 @@ header .mega-menu-dropdown .dropdown-menu {
     display: none;
   }
 }
+
+/* Footer */
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .row {
+    justify-content: center;
+  }
+
+  footer .col-md-3,
+  footer .col-md-6,
+  footer .col-md-3.text-end {
+    text-align: center;
+  }
+
+  footer img {
+    margin: 0 auto;
+  }
+}
