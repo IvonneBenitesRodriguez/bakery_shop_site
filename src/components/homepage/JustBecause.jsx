@@ -4,14 +4,14 @@ import {
 } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import loveImg from '../assets/love-cake.avif';
-import congratsImg from '../assets/congratulationsBouquet.jpg';
-import newbabyImg from '../assets/newBabyCelebration.jpg';
-import weedingImg from '../assets/weddingBlissBouquet.jpg';
-import anniversaryImg from '../assets/anniversarySpecial.jpg';
-import birthdayImg from '../assets/birthday-party-cake.jpg';
-import cheesecakeImg from '../assets/cheesecake-with-raspberry-chocolate.jpg';
-import fruitCakeImg from '../assets/delicious-cake-with-fruits.jpg';
+import loveImg from '../../assets/love-cake.avif';
+import congratsImg from '../../assets/congratulationsBouquet.jpg';
+import newbabyImg from '../../assets/newBabyCelebration.jpg';
+import weedingImg from '../../assets/weddingBlissBouquet.jpg';
+import anniversaryImg from '../../assets/anniversarySpecial.jpg';
+import birthdayImg from '../../assets/birthday-party-cake.jpg';
+import cheesecakeImg from '../../assets/cheesecake-with-raspberry-chocolate.jpg';
+import fruitCakeImg from '../../assets/delicious-cake-with-fruits.jpg';
 
 const ProductCarousel = () => {
   const [index, setIndex] = useState(0);

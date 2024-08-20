@@ -3,12 +3,12 @@ import {
   Container, Row, Col, Image,
 } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
-import birthdayImg from '../assets/birthday.jpg';
-import loveImg from '../assets/love.jpg';
-import congratsImg from '../assets/congrax.jpg';
-import newbabyImg from '../assets/newbaby.jpg';
-import weedingImg from '../assets/weeding.jpg';
-import anniversaryImg from '../assets/anniversary1.jpg';
+import birthdayImg from '../../assets/birthday.jpg';
+import loveImg from '../../assets/love.jpg';
+import congratsImg from '../../assets/congrax.jpg';
+import newbabyImg from '../../assets/newbaby.jpg';
+import weedingImg from '../../assets/weeding.jpg';
+import anniversaryImg from '../../assets/anniversary1.jpg';
 
 const categories = [
   { name: 'Birthday', image: birthdayImg },

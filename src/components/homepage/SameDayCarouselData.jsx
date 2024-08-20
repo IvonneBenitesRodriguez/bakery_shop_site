@@ -4,14 +4,14 @@ import {
 } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import cake1Image from '../assets/cake1.jpg';
-import cake2Image from '../assets/cake2.jpg';
-import cake3Image from '../assets/cake3.jpg';
-import cake4Image from '../assets/cake4.jpg';
-import cake5Image from '../assets/cake5.jpg';
-import cake6Image from '../assets/cake6.jpg';
-import cake7Image from '../assets/cake7.jpg';
-import cake8Image from '../assets/cake8.jpg';
+import cake1Image from '../../assets/cake1.jpg';
+import cake2Image from '../../assets/cake2.jpg';
+import cake3Image from '../../assets/cake3.jpg';
+import cake4Image from '../../assets/cake4.jpg';
+import cake5Image from '../../assets/cake5.jpg';
+import cake6Image from '../../assets/cake6.jpg';
+import cake7Image from '../../assets/cake7.jpg';
+import cake8Image from '../../assets/cake8.jpg';
 
 const ItemCarousel = () => {
   const [index, setIndex] = useState(0);

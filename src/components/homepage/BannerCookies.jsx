@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerCookies from '../assets/cookiesBg.jpg';
+import bannerCookies from '../../assets/cookiesBg.jpg';
 
 const BannerCookies = () => (
   <div className="container my-5">

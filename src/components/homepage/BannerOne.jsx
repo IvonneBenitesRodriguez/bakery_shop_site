@@ -1,6 +1,6 @@
 import React from 'react';
-import pic1 from '../assets/banpic1.jpg';
-import pic2 from '../assets/banpic2.jpg';
+import pic1 from '../../assets/banpic1.jpg';
+import pic2 from '../../assets/banpic2.jpg';
 
 const BannerOne = () => (
   <div className="container my-5">

@@ -4,14 +4,14 @@ import {
 } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import cookiesImg1 from '../assets/cookiesImg1.jpg';
-import cookiesImg2 from '../assets/cookiesImg2.jpg';
-import cookiesImg3 from '../assets/cookiesImg3.jpg';
-import cookiesImg4 from '../assets/cookiesImg4.jpg';
-import cookiesImg5 from '../assets/cookiesImg5.jpg';
-import cookiesImg6 from '../assets/cookiesImg6.jpg';
-import cookiesImg7 from '../assets/cookiesImg7.jpg';
-import cookiesImg8 from '../assets/cookiesImg8.jpg';
+import cookiesImg1 from '../../assets/cookiesImg1.jpg';
+import cookiesImg2 from '../../assets/cookiesImg2.jpg';
+import cookiesImg3 from '../../assets/cookiesImg3.jpg';
+import cookiesImg4 from '../../assets/cookiesImg4.jpg';
+import cookiesImg5 from '../../assets/cookiesImg5.jpg';
+import cookiesImg6 from '../../assets/cookiesImg6.jpg';
+import cookiesImg7 from '../../assets/cookiesImg7.jpg';
+import cookiesImg8 from '../../assets/cookiesImg8.jpg';
 
 const CookieCarousel = () => {
   const [index, setIndex] = useState(0);
